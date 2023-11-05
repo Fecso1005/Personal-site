@@ -162,4 +162,17 @@ a {
   .travolta {
     height: 100px;
   }
+  a {
+    font-size: 1rem;
+  }
+  .footer p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+  .font-head {
+    font-size: 3rem;
+  }
+  .top-container {
+    font-size: 2rem;
+  }
 }
