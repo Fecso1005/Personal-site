@@ -175,4 +175,7 @@ a {
   .top-container {
     font-size: 2rem;
   }
+  .grid-container {
+    width: 80%;
+  }
 }
