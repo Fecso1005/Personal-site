@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #d1faee;
+}
+
+.font-head {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  margin-bottom: 50px;
+  color: aqua;
+}
+
+.font-p {
+  font-family: "Raleway", sans-serif;
+}
+
+.top-container {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.bg-one {
+  background-image: url(./assets/backgroung-image.png);
+}
+
+.mid-container {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.img-box {
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 150px;
+}
+
+.about-me {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px auto;
+  font-weight: bolder;
+  width: 60%;
+}
+
+.third {
+  background-color: #bafaee;
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.font-skills {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+}
+.skills h2 {
+  font-size: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(250px, 300px) minmax(250px, 1fr);
+  grid-template-rows: auto;
+  width: 50%;
+  margin-top: 40px;
+  gap: 20px;
+  text-align: left;
+}
+.banker {
+  width: 300px;
+}
+
+li {
+  list-style: none;
+}
+.spin {
+  width: 300px;
+}
+#title {
+  font-size: 3rem;
+}
+.row-one {
+  padding-top: 54px;
+}
+.grid-container div {
+  overflow: hidden;
+}
+
+.last {
+  background-color: #34cfb5;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  align-self: center;
+  margin-bottom: 30px;
+}
+a {
+  color: black;
+  font-size: 1.4rem;
+  text-decoration-line: none;
+}
+.footer p {
+  align-self: center;
+  color: black;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+@media (max-width: 1059px) {
+  .row-one {
+    padding-top: 0;
+  }
+  .grid-container {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+  .travolta {
+    height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .travolta {
+    height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .travolta {
+    height: 100px;
+  }
+}
